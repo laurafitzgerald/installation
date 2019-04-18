@@ -23,8 +23,8 @@ che_installer: 'https://raw.githubusercontent.com/redhat-developer/codeready-wor
 
 #controls whether enmasse is installed or not
 enmasse: true
-enmasse_version: '1.0.0.GA'
-enmasse_git_url: https://github.com/jboss-container-images/amq-online-images.git
+enmasse_version: 'amq-online-11-intly'
+enmasse_git_url: https://github.com/mikenairn/amq-online-images.git
 
 #controls whether fuse is installed or not
 fuse: true
