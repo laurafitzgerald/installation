@@ -6,11 +6,11 @@ integreatly_version: master
 threescale: true
 # below threescale variables below are not currently used. They define where and what to pull in from github. These will be important as we look to break out and decouple the resources from the installer ###############
 # not currently used but records the version installed by the operator, this should come from the status block
-threescale_version: '2.4.0.GA'
+threescale_version: '3scale-2.5.0-CR1-intly'
 threescale_namespace: "{{ns_prefix | default('')}}3scale"
 threescale_display_name: "Red Hat 3scale API Management Platform"
-threescale_template: 'https://raw.githubusercontent.com/3scale/3scale-amp-openshift-templates/{{threescale_version}}/amp/amp.yml'
-threescale_template_s3: 'https://raw.githubusercontent.com/3scale/3scale-amp-openshift-templates/{{threescale_version}}/amp/amp-s3.yml'
+threescale_template: 'https://raw.githubusercontent.com/mikenairn/3scale-operator-1/{{threescale_version}}/pkg/3scale/amp/auto-generated-templates/productized_templates/amp/amp.yml'
+threescale_template_s3: 'https://raw.githubusercontent.com/mikenairn/3scale-operator-1/{{threescale_version}}/pkg/3scale/amp/auto-generated-templates/productized_templates/amp/amp-s3.yml'
 
 #controls whether che is installed or not
 #note che cannot be installed without launcher being present currently
